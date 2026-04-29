@@ -132,7 +132,8 @@ SmartGN/
 ## Contributors
 
 * Janith
-* Project Team Members
+* Mogith
+* Achini
 
 ---
 
