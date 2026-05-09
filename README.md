@@ -1,142 +1,16 @@
-# SmartGN - Digital Grama Niladhari Service Management System
+# React + Vite
 
-SmartGN is a web-based platform developed to improve village administration through digital technology.
-This system helps Grama Niladhari officers and residents manage services online in a simple and organized way.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## Project Overview
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-SmartGN provides a centralized platform where residents and Grama Niladhari officers can interact digitally.
+## React Compiler
 
-The system allows:
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-* Resident registration and profile management
-* Grama Niladhari account access
-* Certificate request management
-* Appointment booking
-* Government allowance applications
-* Disaster support requests
-* Village announcements
-* AI chatbot guidance
-* Multi-language support
+## Expanding the ESLint configuration
 
----
-
-## Main Features
-
-### Resident Features
-
-* Register using NIC details
-* Login securely
-* Manage household information
-* Add family member details
-* Request certificates
-* Book appointments with Grama Niladhari
-* Apply for government allowances
-* Submit disaster assistance requests
-* Receive announcements
-
-### Grama Niladhari Features
-
-* Login using provided credentials
-* Verify resident registrations
-* Approve or reject certificate requests
-* Manage appointments
-* Publish village announcements
-* Review allowance eligibility
-* Handle disaster support requests
-* Monitor village information
-
-### Admin Features
-
-* Manage Grama Niladhari accounts
-* Add or remove users
-* Maintain system operations
-* Resolve platform issues
-
----
-
-## AI Chatbot Integration
-
-The system includes one AI chatbot that supports:
-
-* Sinhala language
-* Tamil language
-* English language
-
-The chatbot provides:
-
-* Registration guidance
-* System usage instructions
-* Service explanations
-* Resident assistance
-* Grama Niladhari assistance
-
----
-
-## Technologies Used
-
-* HTML
-* CSS
-* JavaScript
-* GitHub
-* Figma
-* Database Management System
-
----
-
-## System Modules
-
-1. User Registration Module
-2. Authentication Module
-3. Resident Management Module
-4. Certificate Request Module
-5. Appointment Management Module
-6. Announcement Module
-7. Allowance Management Module
-8. Disaster Support Module
-9. AI Chatbot Module
-10. Admin Management Module
-
----
-
-## Project Goal
-
-The goal of SmartGN is to digitize Grama Niladhari services and improve communication between residents and village officers.
-
-This platform reduces paperwork and improves accessibility for village-level administration.
-
----
-
-## Repository Structure
-
-```bash
-SmartGN/
-│
-├── index.html
-├── assets/
-├── css/
-├── js/
-├── images/
-├── database/
-└── README.md
-```
-
----
-
-## [Click here to see our Figma Design](https://www.figma.com/design/0DP18Q3Lb3On3EAlbc4lFL/SmartGN?node-id=0-1&t=IHolQj4QQj0MT4Kj-1)
-
----
-
-## Contributors
-
-* Janith
-* Mogith
-* Achini
-
----
-
-## License
-
-This project is developed for educational purposes.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
