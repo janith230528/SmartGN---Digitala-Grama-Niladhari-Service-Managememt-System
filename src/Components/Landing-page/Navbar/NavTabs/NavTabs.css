@@ -22,14 +22,3 @@
   margin: 10px;
 }
 
-/* Language Selector */
-.language-selector {
-  display: flex;
-  height: 56px;
-  align-items: center;
-  gap: 15px;
-  margin: 20px;
-  padding: 0 20px;
-  border: 1px solid #2D37484D;
-  border-radius: 150px;
-}
