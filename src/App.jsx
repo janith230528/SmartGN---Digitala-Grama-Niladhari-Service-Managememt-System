@@ -1,10 +1,13 @@
 function App() {
   return (
+    <>
     <div className= "App">
-      <Navbar />
+      <h1>Welcome to SmartGN</h1>
+          
       
 
     </div>
+    </>
   )
 }
 
