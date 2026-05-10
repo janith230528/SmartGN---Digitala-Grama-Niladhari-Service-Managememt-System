@@ -19,16 +19,7 @@
   align-items: center;
 }
 
-/* Logo Section */
-.logo-section {
-  display: flex;
-}
 
-/* Adjust existing logo styles */
-.logo{
-  max-width: 280px;
-  height: auto;     /* Maintains aspect ratio */
-}
 
 /* Desktop Navigation Links */
 .nav-links {

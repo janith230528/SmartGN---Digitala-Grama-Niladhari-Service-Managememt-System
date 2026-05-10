@@ -1,0 +1,10 @@
+/* Logo Section */
+.logo-section {
+  display: flex;
+}
+
+/* Adjust existing logo styles */
+.logo{
+  max-width: 280px;
+  height: auto;     /* Maintains aspect ratio */
+}
