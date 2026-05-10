@@ -1,7 +1,7 @@
 # SmartGN - Digital Grama Niladhari Service Management System
 
-SmartGN is a web-based platform developed to improve village administration through digital technology.
-This system helps Grama Niladhari officers and residents manage services online in a simple and organized way.
+SmartGN is an online platform designed to modernize village administration using digital solutions.
+It enables Grama Niladhari officers and community members to access and manage services efficiently through a user-friendly and well-organized system.
 
 ---
 
