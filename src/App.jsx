@@ -1,9 +1,10 @@
+import Navbar from "./Components/Navbar/Navbar";
+
 function App() {
   return (
     <>
     <div className= "App">
-      <h1>Welcome to SmartGN</h1>
-          
+      <Navbar /> 
       
 
     </div>
