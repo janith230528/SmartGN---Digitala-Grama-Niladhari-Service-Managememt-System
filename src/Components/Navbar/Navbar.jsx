@@ -8,25 +8,21 @@ function Navbar() {
       <div className="nav-container"> 
          <div className="logo-section">
           <img src={logoImage} alt="SmartGN Logo" className="logo" />
-        </div>
+         </div>
           
         <div className="nav-links">
-          <div className ="nav-link-container">
-          <img src="home_24dp_2D3748_FILL0_wght400_GRAD0_opsz24.svg" alt="homeicon" className="icons" />  
-          <a href="#home" className="nav-link">Home</a>
-          </div> 
-          <div className ="nav-link-container">
-            <img src="info_24dp_2D3748_FILL0_wght400_GRAD0_opsz24.svg" alt="abouticon" className="icons" />
-            <a href="#about" className="nav-link">About</a>
-          </div>
-          <div className ="nav-link-container">
-            <img src="accessibility_24dp_2D3748_FILL0_wght400_GRAD0_opsz24.svg" alt="servicesicon" className="icons" />
-            <a href="#services" className="nav-link">Services</a>
-          </div>
+          <a href="#home" className="nav-link"><img src="home_24dp_2D3748_FILL0_wght400_GRAD0_opsz24.svg" alt="homeicon" className="icons" />Home</a>
+          <a href="#about" className="nav-link"><img src="info_24dp_2D3748_FILL0_wght400_GRAD0_opsz24.svg" alt="abouticon" className="icons" />About</a>
+          <a href="#services" className="nav-link"><img src="accessibility_24dp_2D3748_FILL0_wght400_GRAD0_opsz24.svg" alt="servicesicon" className="icons" />Services</a>
         </div>
 
          <div className="language-selector">
-            <span className="language">English</span>
+            <div className ="nav-link-container">
+              <a href="#services" className="nav-link">
+              <img src="language_24dp_2D3748_FILL0_wght400_GRAD0_opsz24.svg" alt="languageicon" className="icons" />
+              <span>English</span>
+              <img src="keyboard_arrow_down_24dp_2D3748_FILL0_wght400_GRAD0_opsz24.svg" alt="languageicon" className="icons" /></a>
+              </div> 
           </div>
       </div>
 </nav>
