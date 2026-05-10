@@ -1,6 +1,6 @@
 import React from 'react'
 import './Navbar.css'
-import logoImage from '../../assets/SmartGN logo/3.png';
+import logoImage from '../../../assets/SmartGN logo/3.png';
 
 function Navbar() {
   return (
