@@ -9,3 +9,13 @@
   border: 1px solid #2D37484D;
   border-radius: 150px;
 }
+
+.language-selector-link{
+  text-decoration: none;
+  color: #2D3748;
+  font-weight: 500;
+  font-size: 16px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
