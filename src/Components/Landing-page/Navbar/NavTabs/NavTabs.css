@@ -1,5 +1,5 @@
 /* Desktop Navigation Links */
-.nav-links {
+.nav-tabs-container {
   display: flex;
   gap: 80px;
   align-items: center;
@@ -23,6 +23,11 @@
   transition: all 0.3s ease;
   cursor: pointer;
 }
+ .menu{
+    display: none;
+ }
+ 
+
 
 .nav-link:hover {
   color: #005BBD;
@@ -31,6 +36,32 @@
   text-decoration-thickness: 2px;   /* Thickness of underline */
   text-underline-offset: 5px;   /* Space between text and underline */
   transform: scale(1.1);  
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .nav-tabs-container { gap: 40px; }  /* Tablet and below */
+  .nav-link { font-size: 14px; } /* Adjust font size for tablet */
+  .icons { height: 18px; } /* Adjust icon size for tablet */
+
+}
+
+@media screen and (max-width: 768px) {
+  .nav-tabs-container { display: none; }  /* Hide nav links on mobile */
+  .icons { height: 16px; margin: 2px} 
+  .menu{
+    display: flex;
+    justify-content: space-between;
+    gap: 2px;
+    align-items: center;
+ }
+  #aropwDropDown{
+     width: auto;
+     height: 20px;
+     margin-top: 2px;
+     transition: all 0.3s ease;
+     cursor: pointer;
+  }
+    /* Adjust icon size for mobile */
 }
 
 
