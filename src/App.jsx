@@ -1,3 +1,4 @@
+import Hero from "./Components/Landing-page/Hero/Hero";
 import Navbar from "./Components/Landing-page/Navbar/Navbar";
 
 function App() {
@@ -5,7 +6,7 @@ function App() {
     <>
     <div className= "App">
       <Navbar />
-      
+      <Hero />
       
 
     </div>
