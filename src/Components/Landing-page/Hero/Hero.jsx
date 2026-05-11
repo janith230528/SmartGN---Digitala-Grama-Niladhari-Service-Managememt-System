@@ -1,11 +1,22 @@
 import React from 'react'
 import './Hero.css'
-import HeroImage from '../../assets/Hero.jpg'
+import HeroImage from '../../../assets/Hero.png' 
 
 function Hero() {
   return (
     <><div className="hero-section">
-     <h1 className="hero-title">Welcome to Our Website</h1>
+      <div className="hero-image">
+        <img src={HeroImage} alt="Hero Image" id="hero" />
+        </div>
+      <div className="hero-content">
+        <p className="hero-text">
+          Empowering you with effortless access to village administrative services.
+         Connect with your Grama Niladhari officer and manage your official needs in just a few clicks.</p>
+      </div>
+      <div className="buttons">
+        <a href="#" className="btn" id="login-btn">Login<img src="login_24dp_F7FAFC_FILL0_wght400_GRAD0_opsz24.svg" alt="login-icon" /></a>
+        <a href="#" className="btn" id="register-btn">Register<img src="how_to_reg_24dp_F7FAFC_FILL0_wght400_GRAD0_opsz24.svg" alt="login-icon" /></a>
+      </div>
     </div>
     </>
     

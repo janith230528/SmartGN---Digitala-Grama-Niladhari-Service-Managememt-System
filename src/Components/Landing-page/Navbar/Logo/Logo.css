@@ -15,5 +15,5 @@
 }
 
 @media screen and (max-width: 768px) {
-  .logo { max-width: 150px; }  /* Mobile and below */
+  .logo { max-width: 150px;}  /* Mobile and below */
 }
