@@ -30,6 +30,9 @@
   .language-selector-link { 
     font-size: 0;
     gap: 2px;
-     } /* Adjust font size for mobile */
+     } 
+  .language-selector:hover {
+    transform: scale(1.2);
+  }
   
 }
