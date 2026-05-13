@@ -3,7 +3,7 @@
    flex-direction: column;
    justify-content: center;
    /* border: 1px solid red; */
-   }
+}
 
 .section-container{
     display:grid;
@@ -33,14 +33,14 @@
   color: #2D3748;
  }
 
- .card-text{
+.card-text{
     font-size: 14px;
     font-weight: 300;
     width: 100%;
     text-align: justify;
  }
 
- .card-icon{
+.card-icon{
     margin-left: auto;
     opacity: 50%;
  }
