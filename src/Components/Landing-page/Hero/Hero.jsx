@@ -14,9 +14,10 @@ function Hero() {
           Empowering you with effortless access to village administrative services.<br />
           Connect with your Grama Niladhari officer and manage your official needs in just a few clicks.</p>
       </div>
+
       <div className="buttons">
         <a href="#" className="btn" id="login-btn">Login<img src="login_24dp_F7FAFC_FILL0_wght400_GRAD0_opsz24.svg" alt="login-icon" /></a>
-        <a href="#" className="btn" id="register-btn">Register<img src="how_to_reg_24dp_F7FAFC_FILL0_wght400_GRAD0_opsz24.svg" alt="login-icon" /></a>
+        <a href="#" className="btn" id="register-btn">Register<img src="how_to_reg_24dp_F7FAFC_FILL0_wght400_GRAD0_opsz24.svg" alt="register-icon" /></a>
       </div>
     </section>
     </>
