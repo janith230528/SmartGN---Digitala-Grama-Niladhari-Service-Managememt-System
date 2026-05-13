@@ -11,7 +11,7 @@
 #about-image{
     /* border: 1px solid green; */
     display: flex;
-    width: 300px;
+    width: 250px;
     height: auto;
     margin-bottom:30px;
     opacity: 50%;
@@ -48,12 +48,13 @@
         color: #1B365D;
     }
 
-    .description, .objectives{
+.description, .objectives{
         color: #1B365D;
         font-size: 16px;
         margin: 0px 80px 20px 80px;
         text-align: justify;
-    }
+        line-height: 1.5;
+}
 
     b{
         font-weight: 500;

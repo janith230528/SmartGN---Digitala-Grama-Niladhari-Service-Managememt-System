@@ -9,7 +9,9 @@ function App() {
     <div className= "App">
       <Navbar />
       <Hero />
+      <hr />
       <About />
+      <hr/>
       <Services />
       
 
