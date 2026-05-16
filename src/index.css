@@ -10,10 +10,18 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: #F7FAFC;
 }
 
 hr{
   color: #2D37484D;
+}
+
+.section{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   /* border: 1px solid red; */
 }
 
 

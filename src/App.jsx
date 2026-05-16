@@ -9,13 +9,11 @@ function App() {
     <div className= "App">
       <Navbar />
       <Hero />
-      <hr />
+      <hr/>
       <About />
       <hr/>
       <Services />
-      
-
-    </div>
+      </div>
     </>
   )
 }

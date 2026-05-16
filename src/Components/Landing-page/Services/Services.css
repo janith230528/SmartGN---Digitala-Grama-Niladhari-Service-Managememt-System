@@ -1,20 +1,17 @@
-.section{
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   /* border: 1px solid red; */
-}
+
 
 .section-container{
     display:grid;
     grid-template-columns: auto auto auto;
     padding: 30px 100px;
     gap: 20px;
+    /* border: 1px solid black; */
 }
 
 .card{
+    /* border: 1px solid blue; */
     display: flex;
-    padding: 30px 50px;
+    padding: 30px;
     flex-direction: column;
     row-gap: 5px;
     border-radius: 25px;
@@ -38,6 +35,7 @@
     font-weight: 300;
     width: 100%;
     text-align: justify;
+    color: #2D3748;
  }
 
 .card-icon{
