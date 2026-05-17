@@ -12,7 +12,13 @@ return (
         <NavTabs />
         <LanguageSelector />
       </div>
-    </nav>
+
+       <div className="nav-container-hidden">
+        <NavTabs />
+        <Logo />
+        <LanguageSelector />
+      </div>
+   </nav>
   );
 }
 

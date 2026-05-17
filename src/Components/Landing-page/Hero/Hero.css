@@ -1,17 +1,9 @@
-.hero-section{
-   display: flex;
-   flex-direction: column;
-   
-}
-
 .hero-image{
   max-width: auto;
-  height: 400px;
+  height: 450px;
   margin: 30px 100px 0px 100px;
   padding: 0px 20px 20px 20px;
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 #hero{
@@ -23,7 +15,6 @@
 .hero-content{
     display: flex;
     justify-content: center;
-    align-items: center;
     text-align: center;
     margin:  0px 100px;
     padding: 0px 20px 30px 20px;
@@ -31,17 +22,16 @@
 }
 
 .hero-text{
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 300;
-    color: #333;
+    color: #2D3748;
 }
 
 .buttons{
     display: flex;
     height: 100%;
-    align-items:center;
     justify-content: center;
-    margin: 0px 200px;
+    margin: 0px 200px 30px 200px;
 }
 
 .btn{
@@ -52,7 +42,8 @@
     align-items: center;
     justify-content: center;
     color: #F7FAFC;
-    gap: 10px;
+    gap: 5px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 #login-btn{
@@ -62,6 +53,7 @@
 #register-btn{
     background-color: #D69E2E;
 }
+
 
 
 
