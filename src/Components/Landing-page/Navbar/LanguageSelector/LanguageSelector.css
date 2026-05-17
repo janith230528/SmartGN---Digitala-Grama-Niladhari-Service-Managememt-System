@@ -1,0 +1,35 @@
+/* Language Selector */
+.language-selector {
+  display: flex;
+  height: 56px;
+  align-items: center;
+  gap: 15px;
+  margin: 0 ;
+  padding: 0 20px;
+  border: 1px solid #2D37484D;
+  border-radius: 150px;
+}
+
+.language-selector-link{
+  text-decoration: none;
+  color: #2D3748;
+  font-weight: 500;
+  font-size: 16px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .language-selector { height: 40px; gap: 10px; padding: 0 15px; }  /* Tablet and below */
+  .language-selector-link { font-size: 14px; } /* Adjust font size for tablet */
+}
+
+@media screen and (max-width: 768px) {
+  .language-selector { height: 30px; padding: 0 10px; justify-content: space-between;}  /* Mobile and below */
+  .language-selector-link { 
+    font-size: 0;
+    gap: 2px;
+     } /* Adjust font size for mobile */
+  
+}

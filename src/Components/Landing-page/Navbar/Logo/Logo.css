@@ -1,0 +1,19 @@
+/* Logo Section */
+.logo-section {
+  display: flex;
+}
+
+/* Adjust existing logo styles */
+.logo{
+  max-width: 280px;
+  height: auto;     /* Maintains aspect ratio */
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .logo { max-width: 200px; }  /* Tablet and below */
+
+}
+
+@media screen and (max-width: 768px) {
+  .logo { max-width: 150px;}  /* Mobile and below */
+}
